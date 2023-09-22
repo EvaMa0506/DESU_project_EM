@@ -1,0 +1,8 @@
+CLF Configuration,precision-train,recall-train,specificity-train,fscore-train,accuracy-train,misclassified-train,precision-val,recall-val,specificity-val,fscore-val,accuracy-val,misclassified-val,indices
+dummy_random,24.7718,24.7714,49.9983,24.7708,24.7714,5266.0,24.7147,24.7415,55.3867,21.892,24.6942,4556.0,
+dummy most frequent,6.25,25.0,25.0,10.0,25.0,5250.0,14.5826,25.0,25.0,18.4205,58.3306,2521.0,
+AdaBoostClassifier,31.7484,31.6571,49.039,30.9634,31.6571,4784.0,25.4653,25.2863,53.2506,24.2826,31.8182,4125.0,
+ExtraTreesClassifier,100.0,100.0,,100.0,100.0,0.0,25.5616,25.378,55.0345,22.9429,26.595,4441.0,
+RandomForectClassifier,100.0,100.0,,100.0,100.0,0.0,26.5002,26.7106,55.0099,24.156,28.0165,4355.0,
+XGBoostClassifier,91.5963,91.5857,49.9817,91.5854,91.5857,589.0,25.9291,25.8684,55.1023,23.2588,26.7603,4431.0,
+"AdaBoostClassifier & hyperparams = {'n_estimators': 14, 'base_estimator': DecisionTreeClassifier(max_depth=1), 'learning_rate': 0.3}",28.9589,28.6,45.9051,26.0738,28.6,4998.0,27.7967,27.4257,49.5759,26.8852,39.7025,3648.0,adaboostclassifier

@@ -1,0 +1,9 @@
+CLF Configuration,precision-train,recall-train,specificity-train,fscore-train,accuracy-train,misclassified-train,precision-val,recall-val,specificity-val,fscore-val,accuracy-val,misclassified-val,indices
+dummy_random,25.6945,25.7823,51.2842,25.0782,25.7698,6798.0,24.1869,24.2363,51.2767,23.5799,24.2486,2974.0,
+dummy most frequent,10.1223,25.0,25.0,14.4101,40.4892,5450.0,10.1248,25.0,25.0,14.4126,40.4992,2336.0,
+AdaBoostClassifier,38.9793,31.1395,35.3215,25.8862,45.2719,5012.0,34.345,30.5883,36.9826,25.1074,44.702,2171.0,
+ExtraTreesClassifier,100.0,100.0,,100.0,100.0,0.0,31.2911,30.4325,42.9941,27.8603,41.5181,2296.0,
+RandomForectClassifier,100.0,100.0,,100.0,100.0,0.0,30.8134,30.174,41.1487,26.2387,42.8681,2243.0,
+XGBoostClassifier,89.3996,73.0867,28.8489,77.9166,78.5979,1960.0,32.0219,30.5936,41.9139,27.5774,42.3841,2262.0,
+"ExtraTreesClassifier & hyperparams = {'n_estimators': 12, 'max_features': 'sqrt', 'max_depth': None, 'criterion': 'gini'}",100.0,100.0,,100.0,100.0,0.0,30.277,30.001,45.8605,28.6975,38.8945,2399.0,extratreesclassifier
+"ExtraTreesClassifier & hyperparams = {'n_estimators': 12, 'max_features': 'log2', 'max_depth': None, 'criterion': 'gini'}",100.0,100.0,,100.0,100.0,0.0,30.277,30.001,45.8605,28.6975,38.8945,2399.0,extratreesclassifier

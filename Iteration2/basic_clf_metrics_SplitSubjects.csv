@@ -1,0 +1,7 @@
+CLF Configuration,precision-train,recall-train,specificity-train,fscore-train,accuracy-train,misclassified-train,precision-val,recall-val,specificity-val,fscore-val,accuracy-val,misclassified-val
+dummy_random,25.8131,25.8236,51.2407,25.1596,25.9059,6973.0,24.1585,24.2015,51.2939,23.4813,24.1,2762.0
+dummy most frequent,10.1158,25.0,25.0,14.4035,40.4633,5603.0,10.1058,25.0,25.0,14.3933,40.4232,2168.0
+AdaBoostClassifier,38.2405,26.445,28.3403,18.5409,40.9733,5555.0,27.0831,25.5455,29.2912,17.5905,39.7362,2193.0
+ExtraTreesClassifier,100.0,100.0,,100.0,100.0,0.0,24.0593,24.9088,42.3156,22.0679,34.9547,2367.0
+RandomForectClassifier,100.0,100.0,,100.0,100.0,0.0,24.5291,25.0619,37.854,20.5657,36.7683,2301.0
+XGBoostClassifier,88.648,73.0469,30.1,77.7072,78.4933,2024.0,26.8647,26.0625,39.3268,22.7214,36.8233,2299.0
